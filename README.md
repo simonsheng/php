@@ -1,14 +1,23 @@
 # PHP
-黑马程序员PHP零基础入门到精通教程（P1基础6天）
+黑马程序员PHP零基础入门到精通教程（P1基础6天）(2/96)
 \
-[01搭建环境——PHP简介 13:11](https://www.bilibili.com/video/BV18x411H7qD?p=1). 
-## PHP
-### What is PHP
+[01搭建环境——PHP简介(9/20) 13:11](https://www.bilibili.com/video/BV18x411H7qD?p=1). 
+## What is PHP
+## PHP History
+* [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf). 
+## Dynamic vs Static
+### Web
+### Static Web
+### Dynamic
 \
-
-02搭建环境——网站基本概念
-12:31
-P3
+[02搭建环境——网站基本概念(9/20) 12:31](https://www.bilibili.com/video/BV18x411H7qD?p=2)
+## Web
+### Server
+### IP
+### Domain Name
+### DNS
+### Port
+\
 03搭建环境——静态网站访问流程
 11:57
 P4
