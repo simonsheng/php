@@ -1,25 +1,20 @@
-# PHP
-黑马程序员PHP零基础入门到精通教程（P1基础6天）(2/96)
-\
-[01搭建环境——PHP简介(9/20) 13:11](https://www.bilibili.com/video/BV18x411H7qD?p=1). 
-## What is PHP
-## PHP History
-* [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf). 
-## Dynamic vs Static
-### Web
-### Static Web
-### Dynamic
-\
-[02搭建环境——网站基本概念(9/20) 12:31](https://www.bilibili.com/video/BV18x411H7qD?p=2)
-## Web
-### Server
-### IP
-### Domain Name
-### DNS
-### Port
-\
-03搭建环境——静态网站访问流程
-11:57
+# 黑马程序员PHP零基础入门到精通教程（P1基础6天）(96)
+- [x] [01搭建环境——PHP简介_13:11](https://www.bilibili.com/video/BV18x411H7qD?p=1). 
+  - What is PHP
+  - PHP History
+  - [Rasmus Lerdorf](https://en.wikipedia.org/wiki/Rasmus_Lerdorf). 
+  - Dynamic vs Static
+    - Web
+    - Static Web
+    - Dynamic
+- [x] [02搭建环境——网站基本概念_12:31](https://www.bilibili.com/video/BV18x411H7qD?p=2)
+  - Web
+    - Server
+    - IP
+    - Domain Name
+    - DNS
+    - Port
+- [ ][03搭建环境——静态网站访问流程_11:57](https://www.bilibili.com/video/BV18x411H7qD?p=3)
 P4
 04搭建环境——动态网站访问流程
 05:12
@@ -74,22 +69,27 @@ P20
 P21
 06PHP基础——常量的定义和使用
 13:39
-P22
-07PHP基础——系统常量
-08:56
-P23
-08PHP基础——数据类型分类
-05:49
-P24
-09PHP基础——数据类型转换
-09:17
-P25
-10PHP基础——数据类型判断
-08:59
-P26
-11PHP基础——整数类型进制简介
-08:27
-P27
+- [x] [07PHP基础——系统常量_08:56](https://www.bilibili.com/video/BV18x411H7qD?p=22)(10/13/2022 Simon)
+- [x] [08PHP基础——数据类型分类_05:49](https://www.bilibili.com/video/BV18x411H7qD?p=23)(10/13/2022 Simon)
+  - 简单（基本）数据类型：4个小类
+    - 整型：int/integer，系统分配4个字节存储，表示整数类型（有前提）
+    - 浮点：float/double，系统分配8个字节存储，表示小数或者整型存不下的整数
+    - 字符串：string，系统根据实际长度分配，表示字符串（引号）
+    - 布尔类型：bool/boolean，表示布尔类型，只有两个值：true和false
+  - 符合数据类型：2个小类
+    - 对象类型：object，存放对象（面向对象）
+    - 数组类型：array，存储多个数据（一次性）
+  - 特殊数据类型：2个小类
+    - 资源类型：resource，存放资源数据（PHP外部数据，如数据库、文件）
+    - 空类型：NULL，只有一个就是NULL（不能运算）
+- [x] [09PHP基础——数据类型转换_09:17](https://www.bilibili.com/video/BV18x411H7qD?p=24)(10/13/2022 Simon)
+  - 自动转换
+  - 强制（手动）转换
+    - 转布尔和数值
+- [x] [10PHP基础——数据类型判断_08:59](https://www.bilibili.com/video/BV18x411H7qD?p=25)(10/13/2022 Simon)
+  - is_XXX()
+  - Gettype(); Settype(变量,type);
+- [x] [11PHP基础——整数类型进制简介_08:27](https://www.bilibili.com/video/BV18x411H7qD?p=26)
 12PHP基础——整数类型进制转换
 15:01
 P28
@@ -299,3 +299,116 @@ P95
 P96
 11PHP基础——数组（查找算法）
 16:50
+
+## PHP框架CodeIgniter3(CI3)基础教程（全）
+* [P1 CodeIgniter3(CI3)基础教程_01_CI简介_origin 10:22](https://www.bilibili.com/video/BV1xb411n7kH/?p=1)
+* [P2 CodeIgniter3(CI3)基础教程_02_CI的安装及配置_origin 04:40](https://www.bilibili.com/video/BV1xb411n7kH/?p=2)
+* P3
+CodeIgniter3(CI3)基础教程_03_CI的目录结构及多模块的组织形式_origin
+14:31
+* P4
+CodeIgniter3(CI3)基础教程_04_CI的简单数据库操作(CRUD)_origin
+16:47
+* P5
+CodeIgniter3(CI3)基础教程_05_CI中的URL_origin
+07:13
+* P6
+CodeIgniter3(CI3)基础教程_06_CI中的控制器_origin
+08:13
+* P7
+CodeIgniter3(CI3)基础教程_07_CI中的保留字_origin
+07:16
+* P8
+CodeIgniter3(CI3)基础教程_08_CI中的视图_origin
+24:13
+* P9
+CodeIgniter3(CI3)基础教程_09_CI中Model_origin
+09:03
+P10
+CodeIgniter3(CI3)基础教程_10_CI中的Helper辅助开发函数_origin
+11:17
+P11
+CodeIgniter3(CI3)基础教程_11_CI中Library的使用
+18:43
+P12
+CodeIgniter3(CI3)基础教程_12_创建系统核心类_origin
+10:44
+P13
+CodeIgniter3(CI3)基础教程_13_CI创建附属类_origin
+16:38
+P14
+CodeIgniter3(CI3)基础教程_14_CI钩子
+19:17
+P15
+CodeIgniter3(CI3)基础教程_15_CI中的自动加载_origin
+09:43
+P16
+CodeIgniter3(CI3)基础教程_16_CI中的通用方法_origin
+06:35
+P17
+CodeIgniter3(CI3)基础教程_17_CI路由_origin
+27:08
+P18
+CodeIgniter3(CI3)基础教程_18_CI中的错误处理与日志输出_origin
+13:08
+P19
+CodeIgniter3(CI3)基础教程_19_CI中的输出缓存_origin
+10:28
+P20
+CodeIgniter3(CI3)基础教程_20_CI中的程序分析_origin
+11:28
+P21
+CodeIgniter3(CI3)基础教程_21_CLI应用_origin
+09:29
+P22
+CodeIgniter3(CI3)基础教程_22_数据库配置与连接_origin
+22:07
+P23
+CodeIgniter3(CI3)基础教程_23_数据库简单查询操作
+27:35
+P24
+CodeIgniter3(CI3)基础教程_24_QueryBuilder查询构造器_origin
+33:03
+P25
+CodeIgniter3(CI3)基础教程_25_事务_origin
+09:36
+P26
+CodeIgniter3(CI3)基础教程_26_元数据_origin
+17:08
+P27
+CodeIgniter3(CI3)基础教程_27_调用数据库特有函数与存储过程_origin
+08:22
+P28
+CodeIgniter3(CI3)基础教程_28_查询缓存_origin
+16:57
+P29
+CodeIgniter3(CI3)基础教程_29_数据库维护类与数据库工具类_origin
+20:54
+P30
+CodeIgniter3(CI3)基础教程_30_Benchmark_origin
+17:19
+P31
+CodeIgniter3(CI3)基础教程_31_Cache
+14:07
+P32
+CodeIgniter3(CI3)基础教程_32_Calendar_origin
+11:02
+P33
+CodeIgniter3(CI3)基础教程_33_Cart购物车类
+21:10
+P34
+CodeIgniter3(CI3)基础教程_34_Config类_origin
+08:45
+P35
+CodeIgniter3(CI3)基础教程_35_Input_origin
+06:15
+P36
+CodeIgniter3(CI3)基础教程_36_UnitTest_origin
+09:46
+P37
+CodeIgniter3(CI3)基础教程_37_helper和最终总结
+23:58
+
+## [CodeIgniter 3 Tutorial](https://codeigniter.com/userguide3/tutorial/index.html)
+
+* [Static Pages](https://codeigniter.com/userguide3/tutorial/static_pages.html)
