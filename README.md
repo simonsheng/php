@@ -1,4 +1,5 @@
 # 黑马程序员PHP零基础入门到精通教程（P1基础6天）(96)
+## session 1
 - [x] [01搭建环境——PHP简介_13:11](https://www.bilibili.com/video/BV18x411H7qD?p=1). 
   - What is PHP
   - PHP History
@@ -14,63 +15,28 @@
     - Domain Name
     - DNS
     - Port
-- [ ][03搭建环境——静态网站访问流程_11:57](https://www.bilibili.com/video/BV18x411H7qD?p=3)
-P4
-04搭建环境——动态网站访问流程
-05:12
-P5
-05搭建环境——安装Apache及目录介绍
-11:54
-P6
-06搭建环境——安装Apache之httpd.exe介绍
-06:02
-P7
-07搭建环境——配置默认站点
-07:53
-P8
-08搭建环境——安装与配置PHP
-09:12
-P9
-09搭建环境——Apache加载PHP
-09:52
-P10
-10搭建环境——安装MySQL
-17:23
-P11
-11搭建环境——MySQL目录说明
-04:56
-P12
-12搭建环境——MySQL访问流程
-08:47
-P13
-13搭建环境——PHP加载MySQL扩展
-09:53
-P14
-14搭建环境——虚拟主机简介
-06:45
-P15
-15搭建环境——配置基于域名的虚拟主机
-12:37
-P16
-01PHP基础——PHP标记与注释
-12:37
-P17
-02PHP基础——PHP语法结束符
-07:44
-P18
-03PHP基础——变量概念及使用
-10:48
-P19
-04PHP基础——变量命名规则和预定义变量及可变变量
-10:37
-P20
-05PHP基础——变量传值
-16:03
-P21
-06PHP基础——常量的定义和使用
-13:39
-- [x] [07PHP基础——系统常量_08:56](https://www.bilibili.com/video/BV18x411H7qD?p=22)(10/13/2022 Simon)
-- [x] [08PHP基础——数据类型分类_05:49](https://www.bilibili.com/video/BV18x411H7qD?p=23)(10/13/2022 Simon)
+- [ ] [03搭建环境——静态网站访问流程_11:57](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [04搭建环境——动态网站访问流程_05:12](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [05搭建环境——安装Apache及目录介绍_11:54](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [06搭建环境——安装Apache之httpd.exe介绍_06:02](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [07搭建环境——配置默认站点_07:53](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [08搭建环境——安装与配置PHP_09:12](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [09搭建环境——Apache加载PHP_09:52](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [10搭建环境——安装MySQL_17:23](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [11搭建环境——MySQL目录说明_04:56](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [12搭建环境——MySQL访问流程_08:47](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [13搭建环境——PHP加载MySQL扩展_09:53](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [14搭建环境——虚拟主机简介_06:45](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [15搭建环境——配置基于域名的虚拟主机_12:37](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+## session 2
+- [ ] [01PHP基础——PHP标记与注释_12:37](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [02PHP基础——PHP语法结束符_07:44](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [03PHP基础——变量概念及使用_10:48](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [04PHP基础——变量命名规则和预定义变量及可变变量_10:37](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [05PHP基础——变量传值_16:03](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [ ] [06PHP基础——常量的定义和使用_13:39](https://www.bilibili.com/video/BV18x411H7qD?p=3)
+- [x] [07PHP基础——系统常量_08:56](https://www.bilibili.com/video/BV18x411H7qD?p=22)(10/13-14/2022 Simon)
+- [x] [08PHP基础——数据类型分类_05:49](https://www.bilibili.com/video/BV18x411H7qD?p=23)(10/13-14/2022 Simon)
   - 简单（基本）数据类型：4个小类
     - 整型：int/integer，系统分配4个字节存储，表示整数类型（有前提）
     - 浮点：float/double，系统分配8个字节存储，表示小数或者整型存不下的整数
@@ -82,31 +48,56 @@ P21
   - 特殊数据类型：2个小类
     - 资源类型：resource，存放资源数据（PHP外部数据，如数据库、文件）
     - 空类型：NULL，只有一个就是NULL（不能运算）
-- [x] [09PHP基础——数据类型转换_09:17](https://www.bilibili.com/video/BV18x411H7qD?p=24)(10/13/2022 Simon)
+- [x] [09PHP基础——数据类型转换_09:17](https://www.bilibili.com/video/BV18x411H7qD?p=24)(10/13-14/2022 Simon)
   - 自动转换
   - 强制（手动）转换
     - 转布尔和数值
-- [x] [10PHP基础——数据类型判断_08:59](https://www.bilibili.com/video/BV18x411H7qD?p=25)(10/13/2022 Simon)
+- [x] [10PHP基础——数据类型判断_08:59](https://www.bilibili.com/video/BV18x411H7qD?p=25)(10/13-14/2022 Simon)
   - is_XXX()
   - Gettype(); Settype(变量,type);
-- [x] [11PHP基础——整数类型进制简介_08:27](https://www.bilibili.com/video/BV18x411H7qD?p=26)
-12PHP基础——整数类型进制转换
-15:01
-P28
-13PHP基础——浮点型和布尔型
-13:27
-P29
-01PHP基础——赋值,算数,比较运算符
-13:31
-P30
-02PHP基础——运算符之逻辑运算符
-09:14
-P31
-03PHP基础——连接、错误抑制、三目运算符
-11:59
-P32
-04自操作运算符
-13:16
+- [x] [11PHP基础——整数类型进制简介_08:27](https://www.bilibili.com/video/BV18x411H7qD?p=26)(10/14/2022 Simon)
+```php
+$a = ob110;
+$a = 0x112;
+```
+- [x] [12PHP基础——整数类型进制转换_15:01](https://www.bilibili.com/video/BV18x411H7qD?p=27)(10/14/2022 Simon)
+```php
+decbin()
+decoct()
+dechex()
+bindec()
+```
+- [x] [13PHP基础——浮点型和布尔型_13:27](https://www.bilibili.com/video/BV18x411H7qD?p=28)(10/14/2022 Simon)
+## session 3
+- [x] [01PHP基础——赋值,算数,比较运算符_13:31](https://www.bilibili.com/video/BV18x411H7qD?p=29)(10/14/2022 Simon)
+```php
+Expression	gettype()	empty()	is_null()	isset()	bool : if($x)
+$x = "";	string	true	false	true	false
+$x = null;	NULL	true	true	false	false
+var $x;	NULL	true	true	false	false
+$x is undefined	NULL	true	true	false	false
+$x = [];	array	true	false	true	false
+$x = ['a', 'b'];	array	false	false	true	true
+$x = false;	bool	true	false	true	false
+$x = true;	bool	false	false	true	true
+$x = 1;	int	false	false	true	true
+$x = 42;	int	false	false	true	true
+$x = 0;	int	true	false	true	false
+$x = -1;	int	false	false	true	true
+$x = "1";	string	false	false	true	true
+$x = "0";	string	true	false	true	false
+$x = "-1";	string	false	false	true	true
+$x = "php";	string	false	false	true	true
+$x = "true";	string	false	false	true	true
+$x = "false";	string	false	false	true	true
+```
+- [x] [02PHP基础——运算符之逻辑运算符_09:14](https://www.bilibili.com/video/BV18x411H7qD?p=30)(10/14/2022 Simon)
+- [x] [03PHP基础——连接、错误抑制、三目运算符_11:59](https://www.bilibili.com/video/BV18x411H7qD?p=31)(10/14/2022 Simon)
+  - .=
+  - @
+- [x] [04自操作运算符_13:16](https://www.bilibili.com/video/BV18x411H7qD?p=31)(10/14/2022 Simon)
+  - ++
+  - --
 P33
 05计算机码、位运算符、运算符优先级
 24:19
